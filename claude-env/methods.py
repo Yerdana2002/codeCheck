@@ -2,6 +2,8 @@ from anthropic import Anthropic
 import os
 import re
 
+"ANTHROPIC_API_KEY" = "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"
+
 client = Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 # Our first function is to call the appropriate model using anthropic api key
 
